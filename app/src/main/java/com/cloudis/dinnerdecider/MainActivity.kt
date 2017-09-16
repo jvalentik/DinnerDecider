@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         addFoodBtn.setOnClickListener {
             foodList.add(addFoodTxt.text.toString())
+            addFoodTxt.text.clear()
         }
     }
 }
